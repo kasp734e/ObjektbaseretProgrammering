@@ -1,13 +1,9 @@
 #include "iostream"  
   
 int main() {  
-    // Define vars  
-    int weight;  
-    double height;  
-  
-    // init vars  
-    weight = 83;  
-    height = 1.82;  
+    // Define and initialize variables
+    int weight = 83;
+    double height = 1.82;
   
     // define and init bmi var  
     double bmi = weight/(height*height);  
