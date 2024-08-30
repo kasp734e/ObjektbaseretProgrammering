@@ -10,6 +10,6 @@ int main() {
   
     // cout bmi and strings  
     std::cout << "bmi for weight:" << weight << " and height:" << height << " is " << bmi;  
-  
+    
     return 0;  
 }
