@@ -1,6 +1,6 @@
 #include <iostream>
 
-int findMax3(int a, int b, int c) {
+int findMaxOf3Ints(int a, int b, int c) {
     int result;
 
     if (a > b || a > c) {
@@ -20,9 +20,7 @@ int main() {
     
     std::cout << "Skriv 3 ints: ";
     std::cin >> x >> y >> z;
-
-    int max = findMax3(x, y, z);
-    std::cout << "Max value is: " << max << std::endl;
+    std::cout << "Max value is: " << findMaxOf3Ints(x, y, z) << std::endl;
 
     return 0;
 }
