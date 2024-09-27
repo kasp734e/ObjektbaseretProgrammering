@@ -17,10 +17,7 @@ int findMax3(int a, int b, int c) {
 
 int calculateFactorial(int i) {
     int facResult=1;
-    while (i>1) {
-        facResult = facResult * i;
-        i--;
-    }
+    while (i>1) {facResult = facResult * i; i--; }
     return facResult;
 }
 
@@ -31,4 +28,3 @@ int main() {
     std::cout << "The factorial of " << x << " is " << calculateFactorial(x)<< std::endl;
     return 0;
 }
-
