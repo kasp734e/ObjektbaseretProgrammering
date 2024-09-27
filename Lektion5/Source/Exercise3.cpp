@@ -1,11 +1,11 @@
 #include <iostream>
 
 double powerFromVoltAndOhm (double v, double r) {
-    return pow(v,2) /r;
+    return std::pow(v,2) /r;
 }
 
 int main() {
-      
+    system("clear");   
     double v, r;
 
     std::cout << "This program calculates the power dissipated in a simple resistor circuit" << std::endl;

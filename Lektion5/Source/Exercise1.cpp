@@ -22,6 +22,7 @@ int calculateFactorial(int i) {
 }
 
 int main() {
+    system("clear");
     int x;
     std::cout << "Write an int: ";
     std::cin >> x;

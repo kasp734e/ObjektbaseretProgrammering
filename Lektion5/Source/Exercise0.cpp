@@ -14,6 +14,7 @@ int findMaxOf3Ints(int a, int b, int c) {
 }
 
 int main() {
+    system("clear");
     int x, y, z;
     std::cout << "Skriv 3 ints: ";
     std::cin >> x >> y >> z;

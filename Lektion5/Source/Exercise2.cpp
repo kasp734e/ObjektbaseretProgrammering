@@ -11,11 +11,12 @@ double calculateArea(int x, int y) {
 }
 
 double calculateArea(int x, int y, int z) {
-    double s = (x + y + z) / 2.0; // Ensure floating-point division
+    double s = (x + y + z) / 2.0;
     return std::sqrt(s * (s - x) * (s - y) * (s - z));
 }
 
 int main () {
+    system("clear");
     int x, y, z;
     std::cin >> x >> y >> z;
 
