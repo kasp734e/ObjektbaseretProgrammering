@@ -9,16 +9,16 @@ enum vehicleType {
 };
 
 struct gpsCoords {
-float latitude;
-float longitude;
+    float latitude;
+    float longitude;
 };
 
 struct vehicle {
-std::string make;
-std::string model;
-vehicleType type;
-gpsCoords coords;
-int vehicleNumber;
+    std::string make;
+    std::string model;
+    vehicleType type;
+    gpsCoords coords;
+    int vehicleNumber;
 };
 
 const double EARTH_RADIUS = 6371000; // Earth's radius in meters
