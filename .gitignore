@@ -1,0 +1,19 @@
+# Ignore binary files
+*.exe
+*.dll
+*.bin
+*.o
+*.obj
+*.so
+*.out
+
+# Ignore compiled files and libraries
+*.class
+*.pyc
+*.pyo
+*.jar
+
+# Ignore specific build directories (optional)
+bin/
+build/
+dist/
